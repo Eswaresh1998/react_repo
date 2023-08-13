@@ -1,0 +1,2 @@
+const parent = React.createElement('div', {id:"parent"}, [React.createElement('div', {id :"child1"}, [React.createElement('h1', {id: "child1_h1"},'This is Eswaresh'),React.createElement('h2', {id:"child1_h2"},'The App Creator')]), React.createElement('div', {id :"child2"}, [React.createElement('h1', {id: "child2_h1"},'This is Chandana'),React.createElement('h2', {id:"child2_h2"},"The App Creator's Love")])]);
+ReactDOM.render(parent, document.getElementById('root'));
